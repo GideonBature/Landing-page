@@ -102,11 +102,17 @@ button {
   background-color: #e5e7eb;
   padding: 80px;
   text-align: right;
-  line-height: 30px;
+  line-height: 40px;
   display: flex;
   flex-direction: column;
   justify-content: center;
   align-items: flex-end;
+}
+.quote-placement > p {
+    font-size: 36px;
+    font-weight: 250;
+    color: #1f2937;
+    font-style: italic;
 }
 
 .cta {
@@ -130,4 +136,16 @@ button {
 }
 button.signup {
     border: #f9faf8 2px solid;
+}
+
+footer {
+    background-color: #1f2937;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: #f9faf8;
+}
+
+footer > p {
+    padding: 20px;
 }
